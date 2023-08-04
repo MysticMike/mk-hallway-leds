@@ -19,7 +19,6 @@ cd mk-hallway-leds/neochaser
 mkdir build
 cd build
 cmake ..
-
 cmake -G "MinGW Makefiles" ..
 ```
 
