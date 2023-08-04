@@ -19,6 +19,8 @@ cd mk-hallway-leds/neochaser
 mkdir build
 cd build
 cmake ..
+
+cmake -G "MinGW Makefiles" ..
 ```
 
 Note: if you are using Windows, you will want to use `cmake -G "MinGW Makefiles" ..` instead.
